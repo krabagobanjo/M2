@@ -30,8 +30,13 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
+	  String ret = "";
+	  ret += input.substring(input.length() - 3, input.length());
+	  for (int i = 0; i < input.length() - 3; i++) {
+	  	ret += input.charAt(i);
+	  }
 	  //Person 1 put your implementation here
-	  return null;
+	  return ret;
 	}
 	
 	/**
