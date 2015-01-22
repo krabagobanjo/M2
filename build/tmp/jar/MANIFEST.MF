@@ -1,6 +1,11 @@
 Manifest-Version: 1.0
 Implementation-Title: M2 Gradle
+<<<<<<< HEAD
 Implementation-Version: Tyler
 Main-Class: edu.gatech.oad.antlab.pkg1.AntLabMain
 Class-Path: ../../lib/resources.jar
+=======
+Implementation-Version: 1.0
+Main-Class: edu.gatech.oad.antlab.pkg1.AntLabMain
+>>>>>>> origin/master
 
