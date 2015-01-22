@@ -30,7 +30,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  List<Character> characters = new ArrayList<Character>();
+	  java.util.List<Character> characters = new java.util.ArrayList<Character>();
         for(char c:input.toCharArray()){
             characters.add(c);
         }
