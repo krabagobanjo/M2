@@ -51,7 +51,11 @@ public class Person3 {
 >>>>>>> origin/Jeongsoo
 =======
 		String temp = "";
+<<<<<<< HEAD
 >>>>>>> origin/tyler2
+=======
+>>>>>>> origin/Jeongsoo
+>>>>>>> 52e9a9195df4ad89f9aa26382dac207ff0851f8e
 		for(int i = input.length() - 1; i >= 0; i--) {
 			temp = input.charAt(i) + temp;
 		}
