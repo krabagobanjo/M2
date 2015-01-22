@@ -1,1 +1,17 @@
 apply plugin: 'java'
+defaultTasks 'build'
+version = 'Tyler'
+
+
+dependencies {
+	compile files('lib/resources.jar')
+}
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'M2 Gradle',
+					'Implementation-Version': version,
+					'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+					'Class-Path': '../../lib/resources.jar'
+	}
+}
