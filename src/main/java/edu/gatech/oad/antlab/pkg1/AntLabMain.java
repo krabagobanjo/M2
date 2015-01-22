@@ -59,7 +59,7 @@ import edu.gatech.oad.antlab.pkg2.*;
 		  //Person1 replace P1 with your name
 		  //and gburdell1 with your gt id
 		  Person1 p1 = new Person1("Kyle Rabago-Banjo");
-		  toPrint += p1.toString("902987779");
+		  toPrint += p1.toString("ksrb3");
 		  
                   //Person2 replace P2 with your name
 		  //and gburdell with your gt id
