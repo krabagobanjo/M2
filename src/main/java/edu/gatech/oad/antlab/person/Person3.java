@@ -44,10 +44,14 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		String temp = "";
 =======
 	  String temp = "";
 >>>>>>> origin/Jeongsoo
+=======
+		String temp = "";
+>>>>>>> origin/tyler2
 		for(int i = input.length() - 1; i >= 0; i--) {
 			temp = input.charAt(i) + temp;
 		}
