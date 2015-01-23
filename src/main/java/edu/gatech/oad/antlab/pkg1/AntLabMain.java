@@ -52,43 +52,43 @@ import edu.gatech.oad.antlab.pkg2.*;
      */
     public void printOutMessage() {
         
-        String toPrint = 
-            ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
-          + ant22.getMessage() + ant31.getMessage();
+      String toPrint = 
+        ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
+        + ant22.getMessage() + ant31.getMessage();
 
 		  //Person1 replace P1 with your name
 		  //and gburdell1 with your gt id
 		  Person1 p1 = new Person1("Kyle Rabago-Banjo");
 		  toPrint += p1.toString("ksrb3");
 
-		  
-                  //Person2 replace P2 with your name
+	  
+      //Person2 replace P2 with your name
 		  //and gburdell with your gt id
 		  Person2 p2 = new Person2("Tyler");
 		  toPrint += p2.toString("tsmith328");
-		  
-                  //Person3 replace P3 with your name
+	  
+      //Person3 replace P3 with your name
 		  //and gburdell3 with your gt id
 		  Person3 p3 = new Person3("Jeongsoo");
 		  toPrint += p3.toString("jkim3086");
 
-                  //Person4 replace P4 with your name
-                  //and gburdell4 with your gt id
-                  Person4 p4 = new Person4("Hanbeen Kim");
-                  toPrint += p4.toString("hkim684");
-                  
-                  //Person5 replace P5 with your name
-          //and gburdell5 with your gt id
-          Person5 p5 = new Person5("JakeWilliams");
-          toPrint += p5.toString("jwilliams392");
+      //Person4 replace P4 with your name
+      //and gburdell4 with your gt id
+      Person4 p4 = new Person4("Hanbeen Kim");
+      toPrint += p4.toString("hkim684");
+                
+      //Person5 replace P5 with your name
+      //and gburdell5 with your gt id
+      Person5 p5 = new Person5("JakeWilliams");
+      toPrint += p5.toString("jwilliams392");
 
-                  //Person6 replace P6 with your name
-                  //and gburdell6 with your gt id
-                  Person6 p6 = new Person6("P6");
-                  toPrint += p6.toString("gburdell6");
+      //Person6 replace P6 with your name
+      //and gburdell6 with your gt id
+      Person6 p6 = new Person6("P6");
+      toPrint += p6.toString("gburdell6");
 
-		  
-        System.out.println(toPrint);
+	  
+      System.out.println(toPrint);
         
         
     }
